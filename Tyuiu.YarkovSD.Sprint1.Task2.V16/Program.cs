@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.YarkovSD.Sprint1.Task2.V0.Lib;
+using Tyuiu.YarkovSD.Sprint1.Task2.V16.Lib;
 
 namespace Tyuiu.YarkovSD.Sprint1.Task2.V0
 {
@@ -19,14 +19,14 @@ namespace Tyuiu.YarkovSD.Sprint1.Task2.V0
 
             int x;
 
-            Console.WriteLine("Введите значение X:");
+            Console.WriteLine("Введите радиус круга:");
             x = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Квадрат числа X = " + ds.Sqr(x));
+            Console.WriteLine("Периметр круга = " + ds.Cicle(x) * 3.14);
 
             Console.ReadLine();
         }

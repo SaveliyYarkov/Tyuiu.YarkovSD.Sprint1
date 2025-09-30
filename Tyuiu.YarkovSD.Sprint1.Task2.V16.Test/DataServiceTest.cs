@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Tyuiu.YarkovSD.Sprint1.Task2.V0.Lib;
+using Tyuiu.YarkovSD.Sprint1.Task2.V16.Lib;
 
 namespace Tyuiu.YarkovSD.Sprint1.Task2.V0.Test
 {
@@ -12,7 +12,7 @@ namespace Tyuiu.YarkovSD.Sprint1.Task2.V0.Test
         {
             DataService ds = new DataService();
             int x = 2;
-            var res = ds.Sqr(x);
+            var res = ds.Cicle(x);
             Assert.AreEqual(4, res);
         }
     }
