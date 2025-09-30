@@ -6,7 +6,7 @@ namespace Tyuiu.YarkovSD.Sprint1.Task2.V16.Lib
     {
         public double CalculatePerimetrCircle(int value)
         {
-            return (2 * value) * 3.141;
+            return (2 * value) * 3.1415;
         }
     }
 }
