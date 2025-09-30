@@ -1,12 +1,12 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint1;
-namespace Tyuiu.YarkovSD.Sprint1.Task0.V19.Lib
+
+namespace Tyuiu.YarkovSD.Sprint1.Task0.V0.Lib
 {
     public class DataService : ISprint1Task0V19
     {
         public double Calculate()
         {
-            return 4 / 2 * 5 / (3 + 2) * 5;
+            return 10 / (2 + 3);
         }
     }
-}
 }
