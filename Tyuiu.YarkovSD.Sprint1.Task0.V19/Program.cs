@@ -1,28 +1,29 @@
-using Tyuiu.YarkovSD.Sprint1.Task0.V19.Lib;
+п»їusing Tyuiu.YarkovSD.Sprint1.Task0.V2.Lib;
+using Tyuiu.YarkovSD.Sprint1.Task0.V0.Lib;
 internal class Program
 {
     private static void Main(string[] args)
     {
         DataService ds = new DataService();
 
-        Console.Title = "Спринт #1 | Выполнил: Ярков С. Д. | РППб-25-1";
+        Console.Title = "РЎРїСЂРёРЅС‚ #1 | Р’С‹РїРѕР»РЅРёР»: РЇСЂРєРѕРІ РЎ. Р”. | Р РџРџР±-25-1";
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine("* Спринт #1                                                               *");
-        Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
-        Console.WriteLine("* Задание #0                                                              *");
-        Console.WriteLine("* Вариант #19                                                             *");
-        Console.WriteLine("* Выполнил: Ярков Савелий Денисович| РППб-25-1                            *");
+        Console.WriteLine("* РЎРїСЂРёРЅС‚ #1                                                               *");
+        Console.WriteLine("* РўРµРјР°: Р‘Р°Р·РѕРІС‹Рµ РЅР°РІС‹РєРё СЂР°Р±РѕС‚С‹ РІ C#                                        *");
+        Console.WriteLine("* Р—Р°РґР°РЅРёРµ #0                                                              *");
+        Console.WriteLine("* Р’Р°СЂРёР°РЅС‚ #19                                                             *");
+        Console.WriteLine("* Р’С‹РїРѕР»РЅРёР»: РЇСЂРєРѕРІ РЎР°РІРµР»РёР№ Р”РµРЅРёСЃРѕРІРёС‡ | Р РџРџР±-25-1                           *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine("* УСЛОВИЕ:                                                                *");
-        Console.WriteLine("* Написать программу, которая вычисляет выражение 4/2*5/(3+2)*5           *");
-        Console.WriteLine("* и печатает результат на экране.                                         *");
+        Console.WriteLine("* РЈРЎР›РћР’РР•:                                                                *");
+        Console.WriteLine("* РќР°РїРёСЃР°С‚СЊ РїСЂРѕРіСЂР°РјРјСѓ, РєРѕС‚РѕСЂР°СЏ РІС‹С‡РёСЃР»СЏРµС‚ РІС‹СЂР°Р¶РµРЅРёРµ 4 / 2 * 5 / (3 + 2) * 5 *");
+        Console.WriteLine("* Рё РїРµС‡Р°С‚Р°РµС‚ СЂРµР·СѓР»СЊС‚Р°С‚ РЅР° СЌРєСЂР°РЅРµ.                                         *");
         Console.WriteLine("*                                                                         *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+        Console.WriteLine("* РРЎРҐРћР”РќР«Р• Р”РђРќРќР«Р•:                                                        *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine("* 4/2*5/(3+2)*5                                                           *");
+        Console.WriteLine("* 4 / 2 * 5 / (3 + 2) * 5                                                 *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+        Console.WriteLine("* Р Р•Р—РЈР›Р¬РўРђРў:                                                              *");
         Console.WriteLine("***************************************************************************");
 
         Console.WriteLine(ds.Calculate());
