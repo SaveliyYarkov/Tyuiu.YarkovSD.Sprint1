@@ -10,3 +10,4 @@ namespace Tyuiu.YarkovSD.Sprint1.Task2.V16.Lib
         }
     }
 }
+// 2 * value * 3.14159
