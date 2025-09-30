@@ -6,11 +6,6 @@ namespace Tyuiu.YarkovSD.Sprint1.Task2.V16.Lib
     {
         public double CalculatePerimetrCircle(int value)
         {
-            throw new NotImplementedException();
-        }
-
-        public int Cicle(int value)
-        {
             return (2 * value);
         }
     }
