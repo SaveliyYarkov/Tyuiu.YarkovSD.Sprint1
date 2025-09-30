@@ -26,7 +26,7 @@ namespace Tyuiu.YarkovSD.Sprint1.Task2.V0
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Периметр круга = " + string.Format("{0:0.000}", ds.CalculatePerimetrCircle(x)));
+            Console.WriteLine("Периметр круга = " + Math.Round(ds.CalculatePerimetrCircle(x), 3));
 
             Console.ReadLine();
         }
