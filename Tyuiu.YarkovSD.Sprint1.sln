@@ -5,11 +5,11 @@ VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.YarkovSD.Sprint1.Task1.V19", "Tyuiu.YarkovSD.Sprint0.Task1.V19\Tyuiu.YarkovSD.Sprint1.Task1.V19.csproj", "{F7E30985-F557-4BBF-9236-5E4D44525D8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.YarkovSD.Sprint1.Task0.V19", "Tyuiu.YarkovSD.Sprint0.Task1.V19\Tyuiu.YarkovSD.Sprint1.Task0.V19.csproj", "{F7E30985-F557-4BBF-9236-5E4D44525D8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.YarkovSD.Sprint1.Task1.V19.Lib", "Tyuiu.YarkovSD.Sprint0.Task1.V19.Lib\Tyuiu.YarkovSD.Sprint1.Task1.V19.Lib.csproj", "{760FA4B4-09C5-4E83-9468-5940DD0E56DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.YarkovSD.Sprint1.Task0.V19.Lib", "Tyuiu.YarkovSD.Sprint0.Task1.V19.Lib\Tyuiu.YarkovSD.Sprint1.Task0.V19.Lib.csproj", "{760FA4B4-09C5-4E83-9468-5940DD0E56DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.YarkovSD.Sprint1.Task1.V19.Test", "Tyuiu.YarkovSD.Sprint0.Task1.V19.Test\Tyuiu.YarkovSD.Sprint1.Task1.V19.Test.csproj", "{7FDF7E9D-96BC-4471-BD37-0F5E717BD122}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.YarkovSD.Sprint1.Task0.V19.Test", "Tyuiu.YarkovSD.Sprint0.Task1.V19.Test\Tyuiu.YarkovSD.Sprint1.Task0.V19.Test.csproj", "{7FDF7E9D-96BC-4471-BD37-0F5E717BD122}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
