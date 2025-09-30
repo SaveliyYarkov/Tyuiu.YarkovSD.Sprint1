@@ -1,5 +1,5 @@
-﻿using Tyuiu.YarkovSD.Sprint1.Task0.V2.Lib;
-using Tyuiu.YarkovSD.Sprint1.Task0.V0.Lib;
+﻿using Tyuiu.YarkovSD.Sprint1.Task0.V19.Lib;
+namespace Tyiui.YarkovSD.Sprint1.Task0.V19
 internal class Program
 {
     private static void Main(string[] args)
@@ -28,6 +28,6 @@ internal class Program
 
         Console.WriteLine(ds.Calculate());
 
-        Console.ReadKey();
+        Console.ReadLine();
     }
 }
