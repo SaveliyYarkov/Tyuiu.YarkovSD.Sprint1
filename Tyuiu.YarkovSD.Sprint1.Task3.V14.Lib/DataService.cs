@@ -11,5 +11,10 @@ namespace Tyuiu.YarkovSD.Sprint1.Task3.V13.Lib
             int Number3 = number % 10;
             return(Number3 * 100 + Number2 * 10 + Number1);
         }
+
+        public double ReverseNumber(double number)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
