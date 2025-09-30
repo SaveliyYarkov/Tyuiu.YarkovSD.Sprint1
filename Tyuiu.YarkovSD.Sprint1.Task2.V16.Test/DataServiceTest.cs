@@ -12,7 +12,7 @@ namespace Tyuiu.YarkovSD.Sprint1.Task2.V0.Test
         {
             DataService ds = new DataService();
             int x = 2;
-            var res = ds.Cicle(x);
+            var res = ds.CalculatePerimetrCircle(x);
             Assert.AreEqual(4, res);
         }
     }
