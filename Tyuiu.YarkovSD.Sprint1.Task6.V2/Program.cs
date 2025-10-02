@@ -1,6 +1,6 @@
 ﻿using Tyuiu.YarkovSD.Sprint1.Task6.V2.Lib;
 
-namespace Tyuiu.YarkovSD.Sprint1.Task6.V0
+namespace Tyuiu.YarkovSD.Sprint1.Task6.V2
 {
     class Program
     {
@@ -18,8 +18,11 @@ namespace Tyuiu.YarkovSD.Sprint1.Task6.V0
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
+            if (ds.CheckHello(str) == true)
+                Console.WriteLine("Слово 'Hello' найдено в строке");
+            else
+                Console.WriteLine("Слово 'Hello' не найдено в строке");
 
-            Console.WriteLine(ds.WorkWithText(str));
 
             Console.ReadKey();
 
