@@ -6,7 +6,7 @@ namespace Tyuiu.YarkovSD.Sprint1.Task4.V10.Lib
     {
         public double Calculate(double x)
         {
-            return Math.Round((1 + Math.Cos(x)) / (Math.Sin(x) * Math.Sin(x)), 3);
+            return (1 + Math.Cos(x)) / (Math.Sin(x) * Math.Sin(x));
         }      
     }
 }
