@@ -14,7 +14,7 @@ namespace Tyuiu.YarkovSD.Sprint1.Task6.V2
 
             Console.WriteLine("Введите строку:");
             string str = Console.ReadLine();
-
+            
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
