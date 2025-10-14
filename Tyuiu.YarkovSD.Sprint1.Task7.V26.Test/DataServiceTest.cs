@@ -12,10 +12,10 @@ namespace Tyuiu.YarkovSD.Sprint1.Task7.V26.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 0;
+            double z = 0;
             double y = -7;
             double wait = 155/102;
-            var res = ds.Calculate(x, y);
+            var res = ds.Calculate(z, y);
             Assert.AreEqual(wait, res);
         }
     }
