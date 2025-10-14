@@ -14,7 +14,7 @@ namespace Tyuiu.YarkovSD.Sprint1.Task7.V26.Test
             DataService ds = new DataService();
             double z = 0;
             double y = -7;
-            double wait = 155/102;
+            double wait = 1.52;
             var res = ds.Calculate(z, y);
             Assert.AreEqual(wait, res);
         }
